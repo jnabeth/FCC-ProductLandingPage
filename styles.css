@@ -217,7 +217,7 @@ footer{
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   #nav-bar{
     width: 70%;
     flex-direction: column;
