@@ -196,7 +196,11 @@ footer{
   }
 }
 
-@media (max-width: 700px) {
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)  {
   #nav-bar{
     width: 70%;
     flex-direction: column;
@@ -207,5 +211,8 @@ footer{
   #pricing-container{
   flex-direction: column;
   width: 100%;
+  }
+  footer{
+    font-size: 12px;
   }
 }
