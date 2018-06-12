@@ -11,7 +11,9 @@ main {
   display: flex;
   height: 85px;
   position: fixed;
-  top: 0;
+  top: 0px;
+  left:0px;
+  padding:0px;
   width: 100%;
   overflow: hidden;
   align-items: center;
